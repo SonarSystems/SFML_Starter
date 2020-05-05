@@ -4,6 +4,7 @@
 namespace kg {
     class State {
     public:
+        virtual ~State() { }
         virtual void init() = 0;
 
         virtual void handleInput() = 0;
